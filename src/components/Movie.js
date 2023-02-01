@@ -2,7 +2,6 @@ import { movies } from "./../movies";
 
 export default function Movie(props) {
   const movie = movies[props.sira];
-
   return (
     <div className="flex bg-white shadow-lg items-start">
       <img src={movie.posterUrl} alt={movie.title} className="max-w-[18rem] w-2/5 block" />
